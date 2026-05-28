@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>Skriv anmeldelse - TrustHouse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>TrustHouse</h1>
+
+    <nav>
+      <a href="index.html">Forside</a>
+      <a href="om.html">Om</a>
+      <a href="soeg.html">Søg bolig</a>
+      <a href="anmeldelse.html">Skriv anmeldelse</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Skriv en anmeldelse</h2>
+      <p>
+        På denne side kan brugeren i en færdig version dele sin oplevelse
+        med et boligområde eller lejlighedskompleks.
+      </p>
+
+      <p>
+        Da TrustHouse i denne opgave er en statisk HTML/CSS-prototype, bliver
+        anmeldelsen ikke sendt eller gemt. Formularen viser blot, hvordan
+        funktionen kunne se ud.
+      </p>
+    </section>
+
+    <section>
+      <h2>Anmeldelsesformular</h2>
+
+      <form>
+        <label for="sted">Boligområde eller lejlighedskompleks:</label><br>
+        <input type="text" id="sted" name="sted" placeholder="Fx Eternitten, Aalborg">
+        <br><br>
+
+        <label for="rating">Samlet vurdering:</label><br>
+        <select id="rating" name="rating">
+          <option>5 stjerner</option>
+          <option>4 stjerner</option>
+          <option>3 stjerner</option>
+          <option>2 stjerner</option>
+          <option>1 stjerne</option>
+        </select>
+        <br><br>
+
+        <label for="kategori">Hvad handler anmeldelsen primært om?</label><br>
+        <select id="kategori" name="kategori">
+          <option>Støjniveau</option>
+          <option>Tryghed</option>
+          <option>Vedligeholdelse</option>
+          <option>Naboskab</option>
+          <option>Beliggenhed</option>
+          <option>Fællesfaciliteter</option>
+        </select>
+        <br><br>
+
+        <label for="tekst">Din anmeldelse:</label><br>
+        <textarea id="tekst" name="tekst" rows="6" placeholder="Skriv din oplevelse her..."></textarea>
+        <br><br>
+
+        <button type="submit">Send anmeldelse</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 TrustHouse</p>
+  </footer>
+
+</body>
+</html>
