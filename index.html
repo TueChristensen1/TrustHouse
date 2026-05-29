@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>TrustHouse</title>
+
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="frontpage.css">
 </head>
+
 <body>
 
   <header>
@@ -13,39 +16,83 @@
     <nav>
       <a href="index.html">Forside</a>
       <a href="om.html">Om</a>
-      <a href="#">Søg bolig</a>
-      <a href="#">Skriv anmeldelse</a>
-      <a href="#">Kontakt</a>
+      <a href="soeg.html">Søg bolig</a>
+      <a href="boligomraade.html">Boligområde</a>
+      <a href="kompleks.html">Kompleks</a>
+      <a href="toprated.html">Topratede</a>
+      <a href="anmeldelse.html">Skriv anmeldelse</a>
+      <a href="faq.html">FAQ</a>
+      <a href="kontakt.html">Kontakt</a>
     </nav>
   </header>
 
   <main>
-    <section>
+
+    <section class="hero">
       <h2>Find ud af, hvordan det faktisk er at bo et sted</h2>
+
       <p>
         TrustHouse hjælper boligsøgende med at få indsigt i lejlighedskomplekser
         og boligområder gennem anmeldelser og erfaringer fra beboere.
       </p>
+
+      <a class="hero-button" href="soeg.html">Søg efter boligområde</a>
     </section>
 
     <section>
       <h2>Hvad kan du bruge TrustHouse til?</h2>
 
-      <div>
-        <h3>Læs anmeldelser</h3>
-        <p>Se hvad andre siger om støj, tryghed, vedligeholdelse og naboskab.</p>
-      </div>
+      <div class="frontpage-boxes">
 
-      <div>
-        <h3>Sammenlign områder</h3>
-        <p>Få overblik over forskellige boligområder, før du flytter.</p>
-      </div>
+        <div class="frontpage-box">
+          <h3>Læs anmeldelser</h3>
+          <p>
+            Se hvad andre siger om støj, tryghed, vedligeholdelse og naboskab.
+          </p>
+        </div>
 
-      <div>
-        <h3>Del din oplevelse</h3>
-        <p>Hjælp andre ved at skrive din egen anmeldelse.</p>
+        <div class="frontpage-box">
+          <h3>Sammenlign områder</h3>
+          <p>
+            Få overblik over forskellige boligområder, før du beslutter dig for
+            at flytte.
+          </p>
+        </div>
+
+        <div class="frontpage-box">
+          <h3>Del din oplevelse</h3>
+          <p>
+            Hjælp andre boligsøgende ved at dele dine egne erfaringer fra et
+            boligområde eller lejlighedskompleks.
+          </p>
+        </div>
+
       </div>
     </section>
+
+    <section class="green-section">
+      <h2>TrustHouse vurderer boliger ud fra flere kriterier</h2>
+
+      <div class="frontpage-boxes">
+
+        <div class="frontpage-box">
+          <h3>Tryghed</h3>
+          <p>Hvordan opleves området i hverdagen?</p>
+        </div>
+
+        <div class="frontpage-box">
+          <h3>Støjniveau</h3>
+          <p>Er der meget støj fra naboer, trafik eller fællesområder?</p>
+        </div>
+
+        <div class="frontpage-box">
+          <h3>Vedligeholdelse</h3>
+          <p>Bliver bygninger, opgange og fællesområder holdt ordentligt?</p>
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
   <footer>
