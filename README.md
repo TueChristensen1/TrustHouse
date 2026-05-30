@@ -86,15 +86,26 @@ FAQ-siden indeholder ofte stillede spørgsmål om TrustHouse. Siden forklarer bl
 
 ### Kontakt-side — `kontakt.html`
 
-Kontakt-siden viser en simpel prototype på en kontaktside med kontaktoplysninger. Siden demonstrerer, hvordan brugeren i en færdig version ville kunne finde kontaktinformation eller sende en besked.
+Kontakt-siden viser en simpel prototype på en kontaktside med kontaktoplysninger. Siden demonstrerer, hvordan brugeren i en færdig version ville kunne finde kontaktinformation eller sende en besked. 
 
 ## Use case diagram
 
-Use case diagrammet viser de centrale interaktioner mellem brugerne og TrustHouse. Diagrammet illustrerer blandt andet, hvordan en boligsøgende bruger kan søge efter boligområder, se boligprofiler og læse anmeldelser, mens en beboer/anmelder kan skrive en anmeldelse i en potentiel færdig version af systemet. Derudover er der gjort tanker omkring et eventuelt boligselskab, der kan integreres i systemet. Diagrammet kan ses i vores repo som PNG. 
+Use case diagrammet viser de centrale funktioner og aktører i TrustHouse. Diagrammet bruges til at skabe overblik over, hvem der interagerer med systemet, og hvilke handlinger de forskellige aktører kan udføre.
+
+I diagrammet indgår den **boligsøgende bruger** som den primære aktør. Denne bruger kan blandt andet søge efter boligområder, se boligprofiler, læse anmeldelser og få information om TrustHouse gennem sider som FAQ og kontakt.
+
+Derudover indgår en **beboer/anmelder**, som repræsenterer den bruger, der i en færdig version af systemet ville kunne skrive anmeldelser og give ratings af boligområder eller lejlighedskomplekser.
+
+Endelig indgår en **administrator**, som repræsenterer den rolle, der vedligeholder platformens indhold. I vores statiske prototype svarer administratorrollen til den person eller gruppe, der opretter boligcases, opdaterer ratings og vedligeholder informationssider.
+
+Da TrustHouse i dette projekt er udviklet som en statisk HTML/CSS-prototype, er funktionerne ikke koblet til en database. Use case diagrammet viser derfor både de funktioner, der demonstreres i prototypen, og de funktioner, der ville være relevante i en videreudviklet version af systemet. Derudover er der gjort tanker omkring en yderligere aktør **boligselskab**, som i fremtiden kan svare på anmeldelser. Diagrammet kan ses i vores repo som png. 
+
 
 ## Activity diagram
 
-Activity diagrammet viser....
+Activity diagrammet viser det overordnede brugerflow i TrustHouse. Diagrammet tager udgangspunkt i en boligsøgende bruger, der starter på forsiden, går videre til søgesiden, vælger et boligområde og læser TrustScore samt anmeldelser.
+
+Diagrammet viser også, at brugeren kan vælge at skrive en anmeldelse. Da TrustHouse er udviklet som en statisk HTML/CSS-prototype, bliver anmeldelsen dog ikke gemt i en database. Funktionen illustrerer derfor et ønsket brugerflow i en potentiel færdig version af systemet. Diagrammet kan ses i vores repo som png. 
 
 
 ## Arbejdsmetode: mellem plan-driven udvikling og Scrum-tilgang
