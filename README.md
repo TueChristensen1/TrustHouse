@@ -18,15 +18,34 @@ TrustHouse søger at imødekomme dette behov ved at fungere som en digital “na
 
 I den indledende brainstormfase arbejdede gruppen med en ambition om at udvikle TrustHouse som en fuldt funktionel platform med brugeroprettelse, søgefunktioner, anmeldelsessystem og dynamisk visning af boligdata. Efterhånden som projektet tog form, blev denne ambition dog justeret til en mere realistisk løsning, der i højere grad afspejlede eksamensopgavens omfang, tidsmæssige rammer og gruppens tekniske kompetencer.
 
-Det endelige system består derfor af en statisk HTML- og CSS-prototype, der demonstrerer konceptet gennem udvalgte boligcases med tilhørende anmeldelser, ratings og informationssider. Fokus har ikke været på implementering af backend-funktionalitet, databaser eller JavaScript. I stedet har fokus været på design, informationsarkitektur, brugerflow, projektstyring, versionsstyring og dokumentation.
-
-Projektet har derfor bevæget sig fra en overordnet abstraktion om en komplet digital platform til en konkret og realiserbar prototype. Resultatet er et designforslag til et IT-system, der illustrerer konceptets centrale funktioner og demonstrerer, hvordan TrustHouse kan bidrage til mere gennemsigtighed på boligmarkedet.
+Det endelige system består derfor af en statisk HTML- og CSS-prototype, der demonstrerer konceptet gennem udvalgte boligcases med tilhørende anmeldelser, ratings og informationssider. Resultatet er et designforslag til et IT-system, der illustrerer konceptets centrale funktioner og demonstrerer, hvordan TrustHouse kan bidrage til mere gennemsigtighed på boligmarkedet.
 
 ## Planlægning af projektet
 
 Som en del af inceptionfasen blev Boehms W5HH-principper anvendt til at planlægge projektet og skabe et indledende strukturelt overblik over projektets mål, organisering og gennemførelse.
 
-W5HH-principperne blev løbende genbesøgt gennem udviklingsforløbet. I takt med projektets udvikling blev analysen revideret og justeret, og nye refleksioner blev tilføjet for at sikre, at planlægningen fortsat afspejlede projektets aktuelle proces.
+WHY IS THE SYSTEM BEING DEVELOPED?
+TrustHouse udvikles for at skabe mere gennemsigtighed på boligmarkedet. Mange boligsøgende har svært ved at vurdere kvaliteten af et boligområde eller boligselskab, før de flytter ind. Systemetet skal virke som en platform, hvor erfaringer og vurderinger kan deles og formidles, så kommende beboere kan træffe mere informerede beslutninger.
+
+WHAT WILL BE DONE?
+Der udvikles en prototype af en webbaseret anmeldelsesplatform inspireret af Trustpilot og Tripadvisor. Systemet skal præsentere information om boligselskaber, lejlighedskomplekser og boligområder gennem anmeldelser, ratings og beskrivelser af forskellige boligcases.
+
+WHEN WILL IT BE DONE?
+Projektet gennemføres indenfor rammerne af projektperioden og følger en iterativ udvikligsproces. Arbejdet opdeles i planlægning, design, udvikling, evaluering samt dokumentation. Projektgruppen bruger GitHub Projects til deadlines og mål. 
+
+WHO IS RESPONSIBLE?
+Projektgruppen har det samlede ansvar for udviklingen af TrustHouse. Ansvarsområderne og arbejdsopgaver fordeles mellem gruppemedlemmerne genneme en rollefordeling, som vil blive præsenteret længere nede.
+
+WHERE ARE THEY ORGANIZATIONALLY LOCATED?
+Projektgruppens arbejde organiseres gennem samarbejdsplatformen, GitHub, der muliggør at medlemmer kan samle og dele kode, dokumentation og projektstyring. 
+
+HOW WILL THE JOB BE DONE TECHNICALLY AND MANAGERIALLY?
+Teknisk udvikles TrustHouse ved hjælp af HTML og CSS. Projektet styres gennem GitHub med anvendelse af branches, commits, pull requests og merges. Derudover anvendes projektstyringsværktøjer såsom Kanban/Scrum board og et roadmap, UML-diagrammer og løbende dokumentation gennem hele udviklingsprocessen.
+
+HOW MUCH OF EACH RESOURCE IS NEEDED?
+Projektet kræver primært tid, arbejdsindsats og tekniske værktøjer såsom VS Code, Git, GitHub og GitHub Desktop. Ressoruceforbruget er defor begrænset på nuværende stadie.
+
+W5HH-principperne blev løbende genbesøgt gennem udviklingsforløbet. I takt med projektets udvikling blev svarene revideret og justeret, og nye refleksioner blev tilføjet for at sikre, at planlægningen fortsat afspejlede projektets aktuelle proces.
 
 ## Hvad vi konkret har lavet
 
@@ -170,7 +189,6 @@ Begge gruppemedlemmer har ansvar for:
 - At oprette pull requests
 - At reviewe hinandens arbejde
 - At holde GitHub Projects opdateret
-- At sikre, at dokumentationen passer til det faktiske projekt
 - Udarbejdelse af denne `README.md`
 - Udarbejdelse af UML-diagrammer
 
@@ -288,4 +306,4 @@ Arbejdet med TrustHouse har givet os erfaring med både teknisk udvikling og pro
 
 Projektet viser, hvordan en idé kan udvikles fra en ambitiøs business case til et realistisk produkt inden for en given ramme. Ved at arbejde med GitHub, branches, pull requests og GitHub Projects har vi fået praktisk erfaring med samarbejde i et udviklingsprojekt.
 
-Samtidig viser projektet, at der er forskel på at arbejde inspireret af Scrum og at arbejde fuldt agilt. Vores proces har været Scrum-inspireret, men også præget af en plan-driven tilgang, fordi vi har arbejdet ud fra faste krav, uden løbende brugerfeedback og med en konkret afleveringsdeadline.
+Derudover viser projektet, at der er forskel på at arbejde inspireret af Scrum og at arbejde fuldt agilt. Vores proces har været Scrum-inspireret, men også præget af en plan-driven tilgang, fordi vi har arbejdet ud fra faste krav uden løbende brugerfeedback.
